@@ -13,9 +13,15 @@ const Navbar = () => {
 
   return (
     <nav className="sticky top-0 z-50 flex items-center justify-between px-6 py-4 bg-nav md:px-12">
-      <span className="font-display text-2xl font-bold tracking-wider text-primary">
-        EliteSport
-      </span>
+        
+  <span className="font-display text-2xl font-bold tracking-wider text-white">
+    <img
+        src="src/assets/logo.png"
+        alt="EliteSport Logo"
+        className="h-10"
+        height="50"
+        />
+  </span>
 
       {/* Desktop */}
       <ul className="hidden md:flex gap-8">
