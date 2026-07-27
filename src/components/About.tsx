@@ -1,4 +1,4 @@
-import register from "@/assets/register.jpeg";
+import register from "@/assets/register2.jpeg";
 
 const About = () => (
   <section id="about" className="py-20 px-6 md:px-20 bg-section-alt text-center">
